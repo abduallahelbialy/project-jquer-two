@@ -330,7 +330,7 @@ body {
 }
 .contact .share a {
   line-height: 80px;
-  width: 80px;
+  width: 74px;
   text-align: center;
   display: inline-block;
   background-color: #ffffff;
@@ -368,12 +368,17 @@ body {
 }
 .contact .share:hover a, .share.hover a {
   border-radius: 50%;
-  margin: 0 10px;
+  margin: 0 6px;
   color: #000000;
-  font-size: 28px;
+  font-size: 25px;
 }
 .contact .share:hover a:hover, .share.hover a:hover {
   color: #fff;
+}
+@media (max-width:767px) {
+  .contact .ti{
+  font-size: 13px;
+  }
 }
 /* end contact */
 /* start footer */
